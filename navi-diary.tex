@@ -1,0 +1,126 @@
+\documentclass[nofonts]{tufte-handout}
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Ligatures=TeX}
+%\setromanfont{Linux Libertine O}
+\setmainfont[Scale=1.2]{Brill}
+
+\usepackage{ulem}
+
+\definecolor{navi}{rgb}{0.0, 0.45, 0.55}
+\newcommand{\N}[1]{\textbf{\textcolor{navi}{#1}}}
+
+% To work around a known bug.
+% https://tex.stackexchange.com/questions/200722/xetex-seems-to-break-headers-in-tufte-handout
+\ifxetex
+  \newcommand{\textls}[2][5]{%
+    \begingroup\addfontfeatures{LetterSpace=#1}#2\endgroup
+  }
+  \renewcommand{\allcapsspacing}[1]{\textls[15]{#1}}
+  \renewcommand{\smallcapsspacing}[1]{\textls[10]{#1}}
+  \renewcommand{\allcaps}[1]{\textls[15]{\MakeTextUppercase{#1}}}
+  \renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+  \renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\fi
+
+\title{Using a Diary to Practice Na'vi}
+\author{Wm S. Annis}
+
+\begin{document}
+\maketitle%
+
+When learning a new language, practice is the name of the game.  But,
+we don't always have time or opportunities to practice a new language
+as often as we'd like, and with a constructed language like Na'vi
+there are even more difficulties.  First, all our training materials
+are generated in the community, so we have to rely on the free time
+they have.  Second, the number of speakers is quite small — compared
+to, say, French — so not only are there only a few people to practice
+with, there aren't Na'vi-language TV shows coming out every week, only
+a few projects to do, say, the news, etc.  \marginnote{There are some
+  occasional projects to do regular blogs, but, again, that relies on
+  the continuing efforts of volunteers.
+
+  Volunteers are a vital part of the Na'vi language community, but
+  they also have lives to live apart from Na'vi.  We can't expect
+  them to do everything forever.  Sometimes we need to improvise.}
+
+One technique I've used in the last few years for both learning and
+developing my own constructed languages, is a keeping diary.  But this
+is an \textbf{excruciatingly boring diary.}  When I start a new
+language, I am really only talking about the weather — ``it rained
+today; it was windy; the sun was out,'' etc.  At the start, I am
+absolutely not trying to discuss the political situation in
+Kazakhstan, say, or doing a critical analysis of the video game
+\textit{Animal Crossing}.  By focusing on just very simple topics I
+know I can do \textit{a little} language practice every day, a much
+better approach than trying to gulp down a lot of the language in
+irreguar, intense bursts.
+
+In addition to the daily production practice, you can go back and
+ready ealier entries for comprehension practice.  Over time, you can
+also start to see your improvements in the language.
+
+\bigskip
+\N{Ayutralìri ayrìk sngä'i zivup.}\marginnote{\N{ay-}:
+  plural; \N{utral}: ``tree;'' \N{-ìri} topical;
+  \N{rìk}: ``leaf;'' \N{sngä'i} ``begin;'' \N{zup}:
+  ``fall;'' \N{‹iv›}: subjunctive.  \textit{The tree leaves
+    started to fall.}}
+\bigskip
+
+Another thing you can do with a diary, which is related to at least
+part of the appeal of \textit{Avatar,} is practice amateur ethology —
+record the environment, weather, plants, and animals of your local
+area.  You can look up from your studies, the zillions of distractions
+and rage harvests of the internet, get outside for a few minutes to
+collect your thoughts and observations.  I repeat from earlier, this
+does \textbf{not} have to be deep thoughts or elaborate description.
+The point is to make using the language daily easier.  As you get more
+comfortable, you start adding more and more to what you say in the
+diary. 
+
+\section*{Starting Out}
+
+You can't necessarily start your diary on Day One of your Na'vi
+studies.  It will help to have a little pronunciation
+
+
+\section*{Sequencing}
+
+
+\section*{Keep on Keeping on}
+
+Other things you can write about as you get better with the grammar
+and learn more words: what you did at work or school; how you're
+feeling; \marginnote{I have allergies.  \N{Oeri menari krro fkxake}
+(\N{oe}: ``I;'' \N{-(ì)ri}: topical; \N{me-}: dual; \N{\uline{na}ri} ``eye;''
+  \N{krro}: ``sometimes;'' \N{\uline{fkxa}ke}: ``itch'').
+  \textit{Sometimes my eyes itch}.}
+what you ate; what you did with friends (or who you're
+feuding with); what you are reading, watching, listening to; world
+events, if you really must; etc., etc., etc.
+
+Sometimes there will not be Na'vi words for what you want to say.
+Finding ways to talk around those gaps is a necessary skill for using
+Na'vi, and good practice in itself.
+
+Try to say first what you plan to write, to get more speaking
+practice.
+
+Remember, writing something very simple every day matters more than
+writing a lot once a week.  Even if your local weather is boring, 
+\marginnote{If you live in some place like southern California, 
+  you might need to branch out \textit{a bit} beyond the weather
+  sooner than others will.}
+and you just write \N{tsawke lrrtok si} \textit{the sun shines} a lot,
+that's still practice.  Go back and read an older entry or two, and
+come back the next day with just a little more.
+
+
+\bigskip
+\N{Eywa ngahu.}
+
+\end{document}
+
